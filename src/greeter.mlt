@@ -1,0 +1,6 @@
+open Kaputt.Abbreviations
+
+let () =
+  Test.add_simple_test ~title:"calling greet without a default person"
+    (fun () ->
+      Assert.equal () (greet ()))

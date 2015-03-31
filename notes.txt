@@ -1,0 +1,3 @@
+How do we add dependency to tests?
+  1. Explicitly modifying a target. ie foo.test is a text file with things to link in.
+  2. foo.ml -> foo.test just opens the relevant modules.
